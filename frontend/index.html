@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Task Manager</h1>
+
+        <!-- Add Tasks Form -->
+        <div class="form-card">
+            <h2>Fetch Tasks from GitHub Repo</h2>
+            <div class="form-row">
+                <input type="text" id="username" placeholder="GitHub username" />
+                <input type="text" id="repo" placeholder="Repository name" />
+                <button id="fetch-btn" onclick="fetchTasks()">Fetch &amp; Analyse</button>
+            </div>
+            <div id="fetch-status"></div>
+        </div>
+
+        <!-- Tasks List -->
+        <div class="tasks-header">
+            <h2>Tasks</h2>
+            <button class="refresh-btn" onclick="loadTasks()">↻ Refresh</button>
+        </div>
+        <div id="tasks"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
