@@ -2,8 +2,6 @@
 
 AI Task Manager is an AI-powered agent that reads GitHub issues from any public repository, extracts actionable engineering tasks using AI, and stores them in a database. It includes a web frontend for viewing and managing tasks, and is deployed with Docker on Azure App Service.
 
-Live demo: https://sgsbaban-ai-task-manager-gwftgffyh7a0g8gz.ukwest-01.azurewebsites.net/frontend/index.html
-
 ---
 
 ## Features
