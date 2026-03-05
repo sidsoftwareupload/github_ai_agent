@@ -99,8 +99,8 @@ Response:
 ### Quick Start
 
 ```bash
-git clone https://github.com/<your-username>/ai-task-manager.git
-cd ai-task-manager
+git clone https://github.com/sidsoftwareupload/github_ai_agent.git
+cd github_ai_agent
 docker build -t ai-task-manager .
 docker run -p 8000:8000 ai-task-manager
 ```
@@ -146,7 +146,6 @@ uvicorn app.main:app --reload
 
 ![Health Check](screenshots/health-check.png)
 
-> To add screenshots: take screenshots of the app and save them in the `screenshots/` folder with the filenames above.
 
 ---
 
