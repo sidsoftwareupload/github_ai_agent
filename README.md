@@ -2,7 +2,27 @@
 
 AI Task Manager is an AI-powered agent that reads GitHub issues from any public repository, extracts actionable engineering tasks using AI, and stores them in a database. It includes a web frontend for viewing and managing tasks, and is deployed with Docker on Azure App Service.
 
+
 ---
+
+
+## Screenshots
+
+### Frontend -- Task List
+
+![Task List](screenshots/task-list.png)
+
+### Fetching Tasks from GitHub
+
+![Fetch Tasks](screenshots/fetch-tasks.png)
+
+### API Health Check
+
+![Health Check](screenshots/health-check.png)
+
+
+---
+
 
 ## Features
 
@@ -127,23 +147,6 @@ venv\Scripts\activate        # Windows
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
-
----
-
-## Screenshots
-
-### Frontend -- Task List
-
-![Task List](screenshots/task-list.png)
-
-### Fetching Tasks from GitHub
-
-![Fetch Tasks](screenshots/fetch-tasks.png)
-
-### API Health Check
-
-![Health Check](screenshots/health-check.png)
-
 
 ---
 
